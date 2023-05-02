@@ -1,0 +1,86 @@
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;500&display=swap');
+
+ :root {
+    --font-family: 'Poppins', sans-serif;
+    --bg-color:#19A7CE;
+    --primary-color:#F6F1F1;
+ }
+
+ body {
+    align-items: center;
+    background-color: var(--bg-color);
+    display: flex;
+    color: var(--primary-color);
+    flex-direction: column;
+    font-family: var(--font-family);
+    justify-content: center;
+    min-height: 100vh;
+    text-align: center;
+    transition: 2s;
+}
+
+.game-over {
+    background-color: black;
+    color: red;
+}
+
+.dark-mode {
+    --bg-color :#000000;
+    --primary-color:#146C94;
+}
+
+.btn-dark-mode {
+    align-self: flex-start;
+    cursor: pointer;
+    color: var(--primary-color);
+    font-size: 4em;
+    height: 67px;
+    left: 4%;
+    position: absolute;
+    top: 4%;
+    width: 67px;
+}
+
+#dark-mode {
+    display: none;
+}
+
+h1 {
+    font-size: 5em;
+}
+
+h2 {
+    font-size: 4em;
+}
+
+h3 {
+    font-size: 2em;
+    margin-top: 10px;
+}
+
+.mensagem {
+    font-size: 1.5em;
+    margin-top: 20px;
+}
+
+.box {
+    border: 2px solid var(--primary-color);
+    display: inline-block;
+    font-size: 3em;
+    margin: 20px;
+    padding: 20px;
+}
+
+.btn-jogar {
+    background-color: var(--primary-color);
+    border: 0;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    margin-top: 20px;
+    padding: 10px 20px;
+}
+
+.btn-jogar:active {
+    background-color: #e0dddd;
+}
