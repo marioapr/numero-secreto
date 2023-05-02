@@ -9,7 +9,7 @@
 | -------------  | --- |
 | :sparkles: Nome        | **Número Secreto**
 | :label: Tecnologias | java, html e css
-| :rocket: URL         | https://url-deploy.com.br
+| :rocket: URL         | https://numero-secreto-eight-eta.vercel.app/
 | :fire: Desafio     | https://cursos.alura.com.br/course/javascript-validacoes-reconhecimento-voz
 
 <!-- Inserir imagem com a #vitrinedev ao final do link -->
